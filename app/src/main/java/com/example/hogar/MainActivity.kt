@@ -16,5 +16,8 @@ class MainActivity : AppCompatActivity() {
         texto = findViewById(R.id.hello)
         texto.setText("Modificado")
     }
-    
+
+    fun test(){
+        println("Prueba log")
+    }
 }
