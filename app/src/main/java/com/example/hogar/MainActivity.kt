@@ -15,10 +15,12 @@ class MainActivity : AppCompatActivity() {
         var texto: TextView
         texto = findViewById(R.id.hello)
         texto.setText("Modificado")
-        test()
+
     }
 
-    fun test(){
-        println("Prueba log")
+    fun test(data1:Int,data2:Int):Int{
+
+        return data1+data2
+
     }
 }
